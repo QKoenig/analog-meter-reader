@@ -27,4 +27,19 @@ The goal of this project is to create python script using openCV thats able to b
   
   ![original meter image](readme-images/best_line.jpg)
   
+  ##Future work
   
+  There are still a number of glaring issues and I consider this project more of a proof of concept than a field ready program. If I were to return to this I first may look into eliminating the false negatives which currently is not done. One method could be to use plots of the lines generated around the center of each meter in which the x axis is the heading and the y axis is the pixels of the given line. The two false positives are clear outliers as one can see below.
+  
+  ![original meter image](readme-images/plottedLines-0.jpg)
+  ![original meter image](readme-images/plottedLines-1.jpg)
+  ![original meter image](readme-images/plottedLines-2.jpg)
+  ![original meter image](readme-images/plottedLines-3.jpg)
+  ![original meter image](readme-images/plottedLines-4.jpg)
+  ![original meter image](readme-images/plottedLines-5.jpg)
+  ![original meter image](readme-images/plottedLines-6.jpg)
+  ![original meter image](readme-images/plottedLines-7.jpg)
+
+Plotting the lines this way also shows clearly visible peaks where the needles are. It seems like I could do a lot better both in accuracy of the heading and eleminating false positives by working with these.
+
+Additionally, it may very well be that this method can be out done by convolutional neural networks both for detection and classification. If I find the time to put together a sufficiently large training/testing set I may give that a try.
