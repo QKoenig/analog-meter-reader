@@ -44,7 +44,8 @@ The goal of this project is to create a python script using openCV thats able to
   ![original meter image](readme-images/plottedLines-4.jpg)
   ![original meter image](readme-images/plottedLines-5.jpg)
   
-  False positives
+  *False positives*
+  
   ![original meter image](readme-images/plottedLines-6.jpg)
   ![original meter image](readme-images/plottedLines-7.jpg)
 
