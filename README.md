@@ -7,7 +7,7 @@ The goal of this project is to create a python script using openCV thats able to
  2. Run `python3 meter_reader.py` from root dir
  ---
  
- Ideally a camera would be placed on a static mount orthogonal and centered with the meter to take semi-standardized pictures at fixed time intervals. This script could then be configured to analyze the images taken and convert them into numerical data for statistical analysis. This is the original image I started with.
+ Ideally a camera would be placed on a static mount orthogonal and centered with the meter to take pictures at fixed time intervals. This script could then be configured to analyze the images taken and convert them into numerical data for statistical analysis. This is the original image I started with.
 ![original meter image](readme-images/meter.jpg)
  
  Which I cropped to allow for fewer false positives when using Hough Circles. Given a fixed camera, the same cropping could be done on every image as a preprocessing step.
