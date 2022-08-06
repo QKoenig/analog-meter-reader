@@ -1,6 +1,6 @@
 # Analog Meter Reader
 
-The goal of this project is to create a python script using openCV thats able to both detect and determine the orientation of analog gas meters.
+The goal of this project is to create a python script using openCV that is able to both detect and determine the orientation of analog gas meters.
  ---
  1. Install python3
  2. Install opencv
