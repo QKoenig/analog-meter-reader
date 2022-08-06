@@ -32,7 +32,7 @@ The goal of this project is to create a python script using openCV thats able to
   
   ![original meter image](readme-images/best_line.jpg)
   
-  ##Future work
+  ## Future work
   
   There are still a number of glaring issues and I consider this project more of a proof of concept than a field ready program. If I were to return to this I first may look into eliminating the false negatives which currently is not done. One method could be to use plots of the lines generated around the center of each meter in which the x axis is the heading and the y axis is the pixels of the given line. The two false positives are clear outliers as one can see below.
   
